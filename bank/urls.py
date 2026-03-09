@@ -21,7 +21,8 @@ from django.urls import path, include
 
 
 api_urlpatterns = [
-    path('clients/', include('clients.urls'))
+    path('clients/', include('clients.urls')),
+    path('cards/', include('cards.urls'))
 ]
 
 urlpatterns = [
