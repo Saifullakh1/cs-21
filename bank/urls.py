@@ -22,7 +22,8 @@ from django.urls import path, include
 
 api_urlpatterns = [
     path('clients/', include('clients.urls')),
-    path('cards/', include('cards.urls'))
+    path('cards/', include('cards.urls')),
+    path('transfer/', include('transfers.urls'))
 ]
 
 urlpatterns = [

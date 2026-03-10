@@ -41,7 +41,8 @@ INSTALLED_APPS = [
 
     # apps
     "clients",
-    "cards"
+    "cards",
+    "transfers"
 ]
 
 MIDDLEWARE = [
