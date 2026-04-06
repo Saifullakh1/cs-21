@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'bank.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres.prhcbenqwjhfhfmwcwly',
-        'PASSWORD': 'zef-ywty-vkc',
-        'HOST': 'aws-1-ap-northeast-1.pooler.supabase.com',
-        'PORT': '6543',
+        'NAME': 'neondb',
+        'USER': 'neondb_owner',
+        'PASSWORD': 'npg_W6xSPprXz0LV',
+        'HOST': 'ep-falling-sea-amv4z0p5-pooler.c-5.us-east-1.aws.neon.tech',
+        'PORT': '5432',
     }
 }
 
